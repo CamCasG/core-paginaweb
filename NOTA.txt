@@ -1,0 +1,1 @@
+lo resubí porque me di cuenta que la ruta de imagenes que tenía provocaba que no se cargaran al abrir la página 

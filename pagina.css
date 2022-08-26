@@ -1,0 +1,208 @@
+* {  /*restaurador css*/
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*BARRA NAVEGADORA / PRIMER BLOQUE*/
+.barra{
+    background-color: black;
+    height: 4.4em;
+    display: flex;  /* ordena elementos dentro de la barra */
+    justify-content: space-around;    
+}
+.nav{
+    height: 4.4em;
+    display: flex;  
+    justify-content: flex-start;
+    width: 90vh;   /*1% de la altura de la ventana gráfica, unidad gráfica más eficaz ante la diversidad en tamaño de pantallas.*/
+}
+.out{
+    display: flex;  
+    justify-content: flex-end;
+    width: 15vh;
+    margin-right: 20vh;
+}
+.perfil{
+    color: white;
+    align-items: center;
+    padding: 1vh;
+}
+
+.barr-links{
+    display: flex;
+    align-items: center;
+    margin-top: 1.4em;
+}
+
+.barr-links a {
+    color: white;
+    padding: 1vh;
+    text-decoration: none;
+}
+
+.detail {
+    font-weight: bold;  /* definir peso o grueso de la letra */
+}
+
+.boton {
+    background-color: #17A2B8;
+    color: white;
+    margin: 2vh;
+    height: 40%;
+    width: 100%;
+}
+
+/*SEGUNDO BLOQUE*/
+.linea-1{
+    position: relative;
+    left: 10%;
+}
+
+/*TARJETA PRESENTACIÓN*/
+.carta{
+    width: 40%;
+    height: 370px;
+    border: 3px solid grey;
+    background-color: white;
+    margin: 50px 50px;
+}
+
+.header{  /*barra de color*/
+    background-color: #17A2B8;
+    width: 100%; /*pido que ocupe todo el espacio que abarca mi bloque en cuanto a ancho*/
+    height: 100px;
+}
+
+.user{
+    border-radius: 50%;  /*borde circular*/
+    border: 2px solid grey;
+    background-color: white;
+    height: 120px; /*tamaño imagen*/
+    padding: 5px;
+    margin: 30px 25px;
+}
+
+.icon{   /*tamaño iconos*/
+    height: 15px;
+}
+
+.cuerpo{
+    padding: 20px;
+}
+
+a{
+    color: #2B78E4
+}
+
+.dev{
+    margin: 20px 0px 10px 0px;  /*top-right-bottom-left*/
+}
+
+.name{
+    margin: 40px 0px 10px 0px;   /*top-right-bottom-left*/
+}
+
+/*EDUCACIÓN*/
+.educacion{
+    width: 40%;
+    height: 370px;
+    border: 3px solid grey;
+    background-color: white;
+    margin: 50px 50px;
+}
+
+.linea {       /*Texto barra gris*/
+    color: white;
+    margin: 0px 5px 0px 20px;  /*top-right-bottom-left*/
+}
+
+.header2 {
+    background-color: #333333;
+    height: 50px;
+    padding: 5px;
+}
+
+h2, h4, .text1 {
+    margin: 1.2em;
+}
+
+/*TERCER BLOQUE*/
+.linea-2{
+    position: absolute;
+    left: 55%;
+    top: 4.7rem;
+}
+
+/*CONNECTION REQUEST*/
+.request {  /*base de bloque*/
+    width: 90%;
+    height: 19.7em;
+    border: 3px solid grey;
+    background-color: white;
+    margin: 50px 40px;
+}
+
+.header3 {
+    background-color: #333333;
+    height: 50px;
+    padding: 5px;
+}
+
+.con-request, .conexiones {
+    color: white;
+    font-size: 1.8em;
+    margin-top: 0.5rem;
+    margin-right: 0.9rem;
+}
+
+.numero-2, .numero-500{
+    background-color: #C9C9C9;
+    border-radius: 60%;
+    color: black;
+    margin-left: 1.5em;
+    position: relative;
+    right: 0.5em;
+    padding: .23rem;
+}
+
+.photo{
+    height: 3.1em;
+    border-radius: 50%;  /*borde circular*/
+    border: 2px solid black;
+    background-color: white;
+    margin-left: 4%;
+    margin-top: 1%;
+    position: relative;
+    top: 0.9em;
+}
+
+.si-no{
+    height: 2.1em;
+    margin-left: 1.0em;
+    position: relative;
+    top: 0.7em;
+}
+
+.nombre-p {
+    margin-right: 0.6em;
+    margin-left: 0.9em;
+    height: 5.5em;
+}
+
+/*YOUR CONNECTIONS*/
+.final {
+    width: 90%;
+    height: 500px;
+    border: 3px solid grey;
+    background-color: white;
+    margin: 50px 50px;
+}
+
+.view{
+    border-top: 2px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0.3em;
+}
